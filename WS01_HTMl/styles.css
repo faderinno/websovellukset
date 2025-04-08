@@ -1,11 +1,12 @@
-<style > h1 {
+h1 {
   color: green;
+  
 }
-</style > p {
-  color: blue;
+p {
+  color: rgb(15, 21, 0);
 }
 body {
-  background-color: lightgray;
+  background-color: rgb(230, 216, 216);
 }
 h1 {
   font-size: 2em;
@@ -42,7 +43,7 @@ input [type="email"] {
   border-radius: 4px;
 }
 input [type="submit"] {
-  background-color: #4caf50;
+  background-color: #8f2e91;
   color: white;
   padding: 10px;
   border: none;
@@ -50,7 +51,7 @@ input [type="submit"] {
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #45a057;
 }
 .transition-button {
   background-color: lightblue;
@@ -60,21 +61,21 @@ input[type="submit"]:hover {
   transition: background-color 0.3s ease;
 }
 .transition-button:hover {
-  background-color: lightcoral;
+  background-color: rgb(49, 10, 133);
 }
 .animation-box {
-  width: 50px;
-  height: 50px;
-  background-color: lightgreen;
+  width: 258px;
+  height: 300px;
+  background-color: rgb(225, 25, 165);
   position: relative;
-  animation: move 2s infinite alternate;
+  animation: move 0.5s infinite alternate;
 }
 @keyframes move {
   from {
     left: 0;
   }
   to {
-    left: 100px;
+    left: 60px;
   }
 }
 .pseudo-list li:nth-child(odd) {
@@ -84,8 +85,7 @@ input[type="submit"]:hover {
   background-color: white;
 }
 .filter-image {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  filter: grayscale(100%);  transition: filter 0.3s ease;
 }
 .filter-image:hover {
   filter: grayscale(0%);
@@ -101,6 +101,5 @@ input[type="submit"]:hover {
   position: absolute;
   left: 0;
   top: 0;
-  color: lightgrey;
+  color: rgb(185, 38, 38);
 }
-
