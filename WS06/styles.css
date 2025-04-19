@@ -1,0 +1,28 @@
+.container {
+    padding-top: 2rem;
+  }
+  
+
+  .card-title {
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+
+  .col-12 {
+    margin-bottom: 1rem;
+  }
+  
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
