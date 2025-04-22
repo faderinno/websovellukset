@@ -1,0 +1,69 @@
+/* General */
+body {
+    background-color: #171616;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* NAVIGAATIO */
+  .custom-navbar {
+    background-color: rgba(255, 252, 252, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+  
+ 
+  /* Hero / Header */
+  header {
+    background: linear-gradient(to right, #000, #1a1a1a);
+    color: #ffffff;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e60000;
+    border-color: #cc0000;
+  }
+  .hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(227, 3, 3, 0.2);
+    transition: all 0.3s ease;
+  }
+  .transparent-footer {
+    background-color: transparent;
+  }
+  
+  /* Gallery images */
+  img.img-fluid {
+    border: 0px solid #444;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  img.img-fluid:hover {
+    transform: scale(1.05);
+    border-color: #ffffff;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Spacing */
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .row.g-4 > * {
+    padding-bottom: 1rem;
+  }
+  
+  
+ 

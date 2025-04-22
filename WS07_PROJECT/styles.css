@@ -1,0 +1,74 @@
+
+body {
+    background-color: #171616;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  
+  
+  .custom-navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+  
+  
+  header {
+    background: linear-gradient(to right, #000, #1a1a1a);
+    color: #ffffff;
+  }
+  
+  
+  .btn-primary {
+    background-color: #ff1e1e;
+    border-color: #ff1e1e;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e60000;
+    border-color: #cc0000;
+  }
+  
+  .transparent-footer {
+    background-color: transparent;
+  }
+  
+  
+  img.img-fluid {
+    border: 2px solid #444;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  h1, h2, h3, h4 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+ 
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .row.g-4 > * {
+    padding-bottom: 1rem;
+  }
+
+  .custom-card {
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6); /* Default background */
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Default shadow */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px);
+    background-color: #000000; /* Hover color */
+    box-shadow: 0 0 15px #ffffff; /* Glowing effect */
+  }
+  

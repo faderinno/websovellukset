@@ -1,0 +1,125 @@
+/* Main*/
+body {
+    background-color: #171616;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Navigaatio */
+  .custom-navbar {
+    background-color: rgba(255, 252, 252, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+  
+ 
+  /* Header */
+  header {
+    background: linear-gradient(to right, #000, #1a1a1a);
+    color: #ffffff;
+  }
+  
+  /* Kuljettaja kortit */
+  .card {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #ffffff;
+    transition: transform 1.0s, box-shadow 1.0s;
+  }
+  /* KAIKKI ERI VÄRIT KULJETTAJILLE*/
+  .redbull:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(0, 0, 255);
+  }
+  .ferrari:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(250, 0, 0);
+  }
+  .mclaren:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(212, 146, 4);
+  }
+  .mercedes:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(0, 255, 208);
+  }
+  .alpine:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(235, 3, 189);
+  }
+  .williams:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(2, 131, 237);
+  }
+  .aston:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(10, 247, 2);
+  }
+  .rb:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(4, 13, 136);
+  }
+  .haas:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(175, 176, 190);
+  }
+  .sauber:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgb(0, 255, 42);
+  }
+  
+  .card-title {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #cccccc;
+  }
+  
+  /* Nappulat */
+  .btn-primary {
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e60000;
+    border-color: #cc0000;
+  }
+  .hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(227, 3, 3, 0.2);
+    transition: all 0.3s ease;
+  }
+  .transparent-footer {
+    background-color: transparent;
+  }
+  
+  /* Gallery images */
+  img.img-fluid {
+    border: 0px solid #444;
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  img.img-fluid:hover {
+    transform: scale(1.05);
+    border-color: #ffffff;
+  }
+  
+  /* Otsikot */
+  h1, h2, h3, h4 {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Spacing */
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .row.g-4 > * {
+    padding-bottom: 1rem;
+  }
+  

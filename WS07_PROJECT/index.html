@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 Sivusto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+
+  <!-- Navigaatio -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent custom-navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" alt="F1 Logo" width="40" height="40" class="me-2">
+        Formula 1
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Koti</a></li>
+          <li class="nav-item"><a class="nav-link" href="teams.html">Tiimit</a></li>
+          <li class="nav-item"><a class="nav-link" href="drivers.html">Kuljettajat</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontakti</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">UKK</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+<div class="container my-5">
+    <div class="mx-auto w-75"> 
+      <div id="f1Carousel" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#f1Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#f1Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#f1Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#f1Carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+  
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img src="https://www.the-race.com/content/images/size/w1000/2025/04/start.png" 
+                 class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Saudi GP">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Saudi Arabia GP 2025</h5>
+              <p>Oscar Piastri haastaa Verstappenin!</p>
+            </div>
+          </div>
+  
+          
+          <div class="carousel-item">
+            <img src="https://sportsbase.io/images/gpfans/copy_1200x800/dbd38e1924aff37e022768bdd87a4467ab709bb7.jpg" 
+                 class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Hamilton">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Kauden haasteet</h5>
+              <p>Lewis Hamiltonin kausi ei ole alkanut hyvin.</p>
+            </div>
+          </div>
+  
+          
+          <div class="carousel-item">
+            <img src="https://img.redbull.com/images/c_crop,w_4578,h_2289,x_0,y_88/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/11/8/gigbelqelccxakbinp6j/f1-grand-prix--brazil-max-verstappen-2024" 
+                 class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Verstappen">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Seuraava mestari</h5>
+              <p>Onko 2025 vielä Verstappenin vuosi?</p>
+            </div>
+          </div>
+  
+          
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/onQ9MMKZ5S8/maxresdefault.jpg" 
+                 class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Future F1 Team">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Tuleva F1-talli</h5>
+              <p>Huhujen mukaan Laurea on liittymässä Formula 1:een vuonna 2026!</p>
+            </div>
+          </div>
+  
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#f1Carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Edellinen</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#f1Carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Seuraava</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--Sijoitukset-->
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="https://image-service.zaonce.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiJmMW1hbmFnZXIvMjAyNC9kcml2ZXJzL2hlYWRzaG90cy9mMS9waWEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDB9fX0=" class="card-img-top" alt="Max Verstappen">
+          <div class="card-body">
+            <h5 class="card-title">Oscar Piastri</h5>
+            <p class="card-text">Tämän hetken johtaja.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="https://image-service.zaonce.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiJmMW1hbmFnZXIvMjAyNC9kcml2ZXJzL2hlYWRzaG90cy9mMS9ub3IucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDB9fX0=" class="card-img-top" alt="Charles Leclerc">
+          <div class="card-body">
+            <h5 class="card-title">Lando Norris</h5>
+            <p class="card-text">2-sija mestauudessa.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="card custom-card">
+          <img src="https://image-service.zaonce.net/eyJidWNrZXQiOiJmcm9udGllci1jbXMiLCJrZXkiOiJmMW1hbmFnZXIvMjAyNC9kcml2ZXJzL2hlYWRzaG90cy9mMS92ZXIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDB9fX0=" class="card-img-top" alt="Lewis Hamilton">
+          <div class="card-body">
+            <h5 class="card-title">Max Verstappen</h5>
+            <p class="card-text">Tämän hetken hallitseva mestari 3:nlla sijalla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+<!--Ala teksti-->
+  <footer class="transparent-footer text-white text-center py-3 mt-5">
+    &copy; 2025 Markkus Tootsi. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
