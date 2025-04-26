@@ -1,4 +1,4 @@
-/* General */
+
 body {
     background-color: #171616;
     color: #f0f0f0;
@@ -13,13 +13,13 @@ body {
 }
   
  
-  /* Hero / Header */
+  
   header {
     background: linear-gradient(to right, #000, #1a1a1a);
     color: #ffffff;
   }
   
-  /* Buttons */
+  
   .btn-primary {
     background-color: #ffffff;
     border-color: #ffffff;
@@ -38,7 +38,7 @@ body {
     background-color: transparent;
   }
   
-  /* Gallery images */
+  
   img.img-fluid {
     border: 0px solid #444;
     transition: transform 0.8s ease-in-out;
@@ -49,13 +49,13 @@ body {
     border-color: #ffffff;
   }
   
-  /* Headings */
+  
   h1, h2, h3, h4 {
     color: #ffffff;
     font-weight: bold;
   }
   
-  /* Spacing */
+  
   .container {
     padding-top: 2rem;
     padding-bottom: 2rem;

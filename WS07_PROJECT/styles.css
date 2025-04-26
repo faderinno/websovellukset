@@ -59,16 +59,16 @@ body {
 
   .custom-card {
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.6); /* Default background */
+    background-color: rgba(0, 0, 0, 0.6); 
     border: none;
     border-radius: 1rem;
     color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Default shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
   }
   
   .custom-card:hover {
     transform: translateY(-10px);
-    background-color: #000000; /* Hover color */
-    box-shadow: 0 0 15px #ffffff; /* Glowing effect */
+    background-color: #000000; 
+    box-shadow: 0 0 15px #ffffff; 
   }
   
